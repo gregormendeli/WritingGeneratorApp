@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF59742A24898D2A0081E414 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF59742924898D2A0081E414 /* ViewController1.swift */; };
+		CF59742C248992280081E414 /* humorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF59742B248992280081E414 /* humorViewController.swift */; };
+		CF59742E248997C20081E414 /* LoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF59742D248997C20081E414 /* LoveViewController.swift */; };
+		CF5974322489A7CA0081E414 /* ClownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5974312489A7CA0081E414 /* ClownViewController.swift */; };
 		CFD0862924897CFB00852EC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0862824897CFB00852EC3 /* AppDelegate.swift */; };
 		CFD0862B24897CFB00852EC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0862A24897CFB00852EC3 /* SceneDelegate.swift */; };
 		CFD0862D24897CFB00852EC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0862C24897CFB00852EC3 /* ViewController.swift */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF59742924898D2A0081E414 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		CF59742B248992280081E414 /* humorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = humorViewController.swift; sourceTree = "<group>"; };
+		CF59742D248997C20081E414 /* LoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveViewController.swift; sourceTree = "<group>"; };
+		CF5974312489A7CA0081E414 /* ClownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClownViewController.swift; sourceTree = "<group>"; };
 		CFD0862524897CFB00852EC3 /* NewMiniProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewMiniProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD0862824897CFB00852EC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFD0862A24897CFB00852EC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +114,10 @@
 				CFD0863124897CFD00852EC3 /* Assets.xcassets */,
 				CFD0863324897CFD00852EC3 /* LaunchScreen.storyboard */,
 				CFD0863624897CFD00852EC3 /* Info.plist */,
+				CF59742924898D2A0081E414 /* ViewController1.swift */,
+				CF59742B248992280081E414 /* humorViewController.swift */,
+				CF59742D248997C20081E414 /* LoveViewController.swift */,
+				CF5974312489A7CA0081E414 /* ClownViewController.swift */,
 			);
 			path = NewMiniProject;
 			sourceTree = "<group>";
@@ -259,6 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF5974322489A7CA0081E414 /* ClownViewController.swift in Sources */,
+				CF59742C248992280081E414 /* humorViewController.swift in Sources */,
+				CF59742A24898D2A0081E414 /* ViewController1.swift in Sources */,
+				CF59742E248997C20081E414 /* LoveViewController.swift in Sources */,
 				CFD0862D24897CFB00852EC3 /* ViewController.swift in Sources */,
 				CFD0862924897CFB00852EC3 /* AppDelegate.swift in Sources */,
 				CFD0862B24897CFB00852EC3 /* SceneDelegate.swift in Sources */,
@@ -435,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KTSQ6ZV26W;
 				INFOPLIST_FILE = NewMiniProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +469,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KTSQ6ZV26W;
 				INFOPLIST_FILE = NewMiniProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
